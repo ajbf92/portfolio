@@ -67,8 +67,17 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 120px;
+    padding: 150px 100px;
 }
+.hero-content-image {
+    padding: 10px 60px 60px 0px;
+    flex: 1;
+}
+.hero-content-image img {
+    width: 20%;
+    border: 10px ridge #f7e225;
+}
+
 
 /* about me section*/
 .about-me {
