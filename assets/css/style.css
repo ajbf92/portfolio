@@ -70,14 +70,18 @@ nav ul li a:hover {
     padding: 150px 100px;
 }
 .hero-content-image {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 10px 60px 60px 0px;
     flex: 1;
 }
 .hero-content-image img {
-    width: 20%;
-    border: 10px ridge #f7e225;
+    width: 20vw;
+    border: 8px ridge #f7e225;
 }
-
 
 /* about me section*/
 .about-me {
