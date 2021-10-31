@@ -153,7 +153,10 @@ nav ul li a:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-   
+    .hero-content-image img {
+        width: 25vw;
+        border: 8px ridge #f7e225;
+    }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -165,7 +168,26 @@ nav ul li a:hover {
         width: 25vw;
         border: 8px ridge #f7e225;
     }
-  }
+    header h1 {
+        font-size: 40px; 
+     }
+     nav ul li {
+         font-size: 20px;
+     }
+     .about-me h2 {
+         font-size: 38px;
+     }
+     .my-work h2 {
+         font-size: 38px;
+     }
+     .contact-me h2 {
+         font-size: 36px;
+     }
+     .about-me p {
+         font-size: 18px;
+   }
+ }
+  
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
@@ -174,6 +196,10 @@ nav ul li a:hover {
     }
     nav ul li {
         font-size: 20px;
+    }
+    .hero-content-image img {
+        width: 35vw;
+        border: 8px ridge #f7e225;
     }
     .about-me h2 {
         font-size: 38px;
@@ -188,7 +214,7 @@ nav ul li a:hover {
         font-size: 16px;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 507px) {
     header h1 {
         font-size: 30px; 
      }
@@ -220,9 +246,9 @@ nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 406px) {
     header h1 {
-        font-size: 26px; 
+        font-size: 26px;
      }
      nav ul li {
          justify-content: space-between;
