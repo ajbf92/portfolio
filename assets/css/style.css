@@ -29,3 +29,30 @@ header a {
     text-decoration: None;
     color: #ffffff;
 }
+/*navigation bar*/
+nav {
+    background-color: rgb(119, 28, 21);
+    padding:20px 35px;
+    list-style: none;
+    color: #ffffff;
+    border-bottom: 10px ridge #ffffff;
+    border-left: 10px ridge #ffffff;
+    border-right: 10px ridge #ffffff;
+}
+nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+nav ul li {
+    padding: 0 20px;
+    font-size: 30px;
+    list-style: none;
+    
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
