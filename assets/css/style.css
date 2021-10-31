@@ -11,9 +11,9 @@ header {
     background-color: rgb(119, 28, 21);
     padding: 20px 10px 0px 10px;
     justify-content: center;
-    border-top: 10px ridge #ffffff;
-    border-left: 10px ridge #ffffff;
-    border-right: 10px ridge #ffffff;
+    border-top: 10px ridge #f7e225;
+    border-left: 10px ridge #f7e225;
+    border-right: 10px ridge #f7e225;
     
 }
 header h1 {
@@ -35,9 +35,9 @@ nav {
     padding:20px;
     list-style: none;
     color: #ffffff;
-    border-bottom: 10px ridge #ffffff;
-    border-left: 10px ridge #ffffff;
-    border-right: 10px ridge #ffffff;
+    border-bottom: 10px ridge #f7e225;
+    border-left: 10px ridge #f7e225;
+    border-right: 10px ridge #f7e225;
 }
 nav ul {
     display: flex;
@@ -103,20 +103,34 @@ nav ul li a:hover {
     font-size: 20px;
     color: rgb(119, 28, 21);
 }
+/*about me styling ends*/
 
+/*my work styling starts*/
 .my-work {
     background-color: #f7e225;
     display:flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: px;
     justify-content: center;
-    border-bottom: 10px ridge #ffffff;
+    border-bottom: 10px ridge rgb(119, 28, 21);
 }
 .my-work h2 {
     font-size: 50px;
     color: rgb(119, 28, 21);
     text-shadow: 1px 1px 1px #ffffff;
 }
+.run-buddy {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+.run-buddy img {
+    border: ridge 10px #f7e225;
+}
+
+/*my work styling ends*/
+
+/*contact styling starts*/
 .contact-me {
     display:flex;
     flex-direction: column;
@@ -148,7 +162,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: #f7e225;
 }
-
+/* contact styling ends*/
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
