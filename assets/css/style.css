@@ -76,7 +76,6 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px 60px 60px 0px;
-    flex: 1;
 }
 .hero-content-image img {
     width: 20vw;
