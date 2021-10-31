@@ -59,8 +59,16 @@ nav ul li a {
 nav ul li a:hover {
     color: #f7e225;
 }
-
-
+/*hero section*/
+.hero {
+    background-image: url('../images/handshake-sketch.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 120px;
+}
 
 /* about me section*/
 .about-me {
