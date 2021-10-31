@@ -116,10 +116,9 @@ nav ul li a:hover {
 }
 .contact-me {
     background-color: rgb(119, 28, 21);
-    display:flex;
-    flex-wrap: wrap;
     padding: 20px 100px;
     justify-content: center;
+
 }
 .contact-me h2 {
     font-size: 50px;
