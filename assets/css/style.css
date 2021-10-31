@@ -59,3 +59,25 @@ nav ul li a {
 nav ul li a:hover {
     color: #f7e225;
 }
+
+
+
+/* about me section*/
+.about-me {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 20px 100px;
+    justify-content: center;
+    border-bottom: 10px ridge rgb(119,28,21);
+}
+.about-me h2 {
+    font-size: 50px;
+    color: #f7e225;
+    text-shadow: 1px 1px 1px rgb(119, 28, 21);
+}
+.about-me p {
+    font-size: 20px;
+    color: rgb(119, 28, 21);
+}
+
