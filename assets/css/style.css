@@ -81,3 +81,16 @@ nav ul li a:hover {
     color: rgb(119, 28, 21);
 }
 
+.my-work {
+    background-color: #f7e225;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    justify-content: center;
+    border-bottom: 10px ridge rgb(119,28,21);
+}
+.my-work h2 {
+    font-size: 50px;
+    color: rgb(119, 28, 21);
+    text-shadow: 1px 1px 1px #ffffff;
+}
