@@ -9,7 +9,7 @@ To build a portfolio page, which you can add to as the course progresses, of wor
 
 ## Website
 https://ajbf92.github.io/portfolio/
-![ScreenShot](
+![ScreenShot](assets/images/portfolio_index.html.png)
 
 ## Contribution
 By Alex Betancourt
