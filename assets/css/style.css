@@ -148,6 +148,7 @@ nav ul li a:hover {
     flex-direction: row;
     font-size: 30px;
     padding: 0 20px 10px 20px;
+    margin-top: 20px;
     justify-content: space-between;
     color: #f7e225;
     text-shadow: 1px 1px 1px rgb(119, 28, 21);
@@ -167,6 +168,10 @@ nav ul li a:hover {
     border: ridge 8px #f7e225;
     justify-content: space-between;
     
+}
+.exception a img{
+    height: 60%;
+    object-fit: cover;
 }
 /*my work styling ends*/
 
